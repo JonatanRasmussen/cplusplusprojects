@@ -15,7 +15,7 @@ int main() {
 
     // Calculate and print the result of the expression
     double result = (x + y) - z;
-    cout << "Result: " << result << endl;
+    cout << result << endl;
 
     return 0;
 }

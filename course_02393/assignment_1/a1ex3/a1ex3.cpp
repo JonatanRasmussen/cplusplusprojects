@@ -16,11 +16,11 @@ int main() {
 
     // Compare the numbers and print the result
     if (x == y) {
-        cout << "x is equal to y" << endl;
+        cout << std::to_string(x)+" is equal to "+std::to_string(y) << endl;
     } else if (x > y) {
-        cout << "x is bigger than y" << endl;
+        cout << std::to_string(x)+" is bigger than "+std::to_string(y) << endl;
     } else {
-        cout << "x is smaller than y" << endl;
+        cout << std::to_string(x)+" is smaller than "+std::to_string(y) << endl;
     }
 
     return 0;

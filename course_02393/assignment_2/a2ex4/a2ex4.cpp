@@ -19,9 +19,9 @@ int main() {
         }
 
         if (value >= 1 && value <= 1000) {
-            numbers[value]++;
 
-            cout << value << " has been entered " << numbers[value] << " times before." << endl;
+            cout << numbers[value] << endl;
+            numbers[value]++;
         }
     }
 
